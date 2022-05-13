@@ -1,0 +1,113 @@
+/* Les trucs a mettre au debut pour après */
+
+*,
+html,
+body {
+  padding: 0rem;
+  margin: 0rem;
+  color: black;
+  text-decoration: none;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+    display: flex;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#898989+0,444444+29,000000+100 */
+background: #898989; /* Old browsers */
+background: -moz-linear-gradient(top,  #898989 0%, #444444 29%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #898989 0%,#444444 29%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #898989 0%,#444444 29%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#898989', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+/* La je met le code la barre du haut */
+
+nav  {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: orangered;
+    font-size:2.5rem;
+    font-weight: bolder;
+    border-bottom-left-radius: 4rem;
+    box-shadow: darkred 1rem 1rem 0rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 85%;
+    align-items: center;
+    justify-content:center;
+    background-color:orange;
+    border-radius: 3rem;
+    margin: 3% 5% ;
+    width: 95%;
+    box-shadow: grey 1rem 1rem 0rem;
+}
+
+.tierlist {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    align-items: center;
+    justify-content:space-between;
+    box-sizing: border-box;
+    padding: 0rem 3rem;
+}
+
+.pastabox {
+    height: 80%;
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: green;
+    border-radius: 3rem;
+}
+img {
+    display: flex;
+    flex-basis: 80%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 100%;
+}
+.pastaTXT {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    flex-basis: 20%;
+    width: fit-content;
+    background-color: wheat;
+}
+
+.presentation {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+    padding: 0rem 3rem;
+}
+
+
